@@ -1,0 +1,21 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+#
+# Primer commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#	new file:   font/Quicksand-VariableFont_wght.ttf
+#	new file:   images/background.jpg
+#	new file:   images/descarga.png
+#	new file:   images/ejemplo.webp
+#	new file:   images/img1.jpg
+#	new file:   images/inicioCabecera.jpg
+#	new file:   index.html
+#	new file:   style/COMMIT_EDITMSG.COMMIT_EDITMSG
+#	new file:   style/estilos.css
+#
+
+
