@@ -76,12 +76,20 @@ body{
 
 /*----------------------------------------*/
 
+.productos h1{
+	text-align: center;
+}
+
 
 /*--------- Tres columnas  --------*/
 
 .row{
 	text-align: center;
 	display: inline-flex;
+}
+
+.col p{
+	margin-bottom: 30px;
 }
 
 .col{
@@ -91,7 +99,7 @@ body{
 	text-align: center;
 	padding: 20px;
 	border-radius: 35px;
-	border-style: solid;
+	border: 2px solid #bdbdbd;
 	margin: 40px; 
 }
 
@@ -100,10 +108,75 @@ body{
 	color: white;
 	text-decoration: none;
 	background: #ffd54f;	
-	padding: 10px;
+	padding: 10px 40px;
+	border-radius: 15px;
 }
 
 .col a:hover{
 	background: #c8a415;
 }
 
+/*------------ TABLA ----------------*/
+
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table
+{
+    margin: 10px 0;
+    width: 100%;
+}
+
+table, th, td {
+  border: 2px solid #6d6d6d;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 50px;
+  text-align: left;
+  text-align: center;
+}
+
+.tarifas tr:nth-child(even) {
+  background-color: #eee;
+}
+
+.tarifas tr:nth-child(odd) {
+ background-color: #fff;
+}
+
+.tarifas th {
+  background-color: #8d8d8d;
+  color: white;
+}
+
+/*------------ Videos  --------------*/
+
+.videos{
+	
+	display: inline-flex;
+	width: 100%;
+}
+
+.video{
+	height: 400px;
+	width: 50%;
+	text-align: center;
+	padding: 20px;
+	border-radius: 35px;
+	border: 2px solid #bdbdbd;
+	margin: 40px; 
+}
+
+.parrafo{
+	height: 150px;
+	width: 50%;
+	text-align: center;
+	padding: 20px;
+	border-radius: 35px;
+	border: 2px solid #bdbdbd;
+	margin: 40px; 
+}
