@@ -9,20 +9,24 @@
 }
 
 body{
-	background: #fafafa;
-	margin-top: 0px;
+
+	margin-left: auto;
+  	margin-right: auto;
+	width: 90%;
 }
 
 .container{
-	width: 1280px;
+	width: 90%;
 	background: #fafafa;
 	margin: auto;
 }
 
 
 /*------- Estilos del menu principal ---*/
+
 .nav ul li {
-    background-color:#ffd54f;
+    background-color:#EEEEEE;
+
 }
 .nav {
 	float: right;
@@ -37,11 +41,11 @@ body{
 
 .nav ul a {
     display:block;
-    color:#fff;
     text-decoration:none;
     font-weight:400;
     font-size:20px;
     padding:20px;
+    color: #757575;
 }
 
 .nav ul li {
@@ -50,9 +54,22 @@ body{
     padding:0;
 }
 
-.nav ul li:hover {
-    background:#c8a415;
+.nav ul.first:first-child{
+	border-radius: 50px;
 }
+
+.nav ul li:hover {
+    background: #212121;
+}
+
+.nav ul li a:hover {
+    color: white;
+}
+
+.nav ul:hover {
+    color: white;
+}
+
 
 .nav ul ul {
     display:none;
@@ -74,6 +91,23 @@ body{
     display:block;
 }
 
+.inicio{
+	border-radius: 20px 0px 0px 0px;
+}
+.contacto{
+	border-radius: 0px 20px 0px 0px;
+}
+/*------------ Estilo imagen de portada grande ----------*/
+/*
+.full-width {
+	left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw;
+	position: absolute;
+	right: 50%;
+	width: 100vw;
+}*/
 /*----------------------------------------*/
 
 .productos h1{
@@ -93,27 +127,28 @@ body{
 }
 
 .col{
-	width: 300px;
+	width: 33%;
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
 	padding: 20px;
 	border-radius: 35px;
-	border: 2px solid #bdbdbd;
+	border: 2px solid #EEEEEE;
 	margin: 40px; 
 }
 
 .col a{
 	margin-top: 20px;
-	color: white;
+	color: 757575;
 	text-decoration: none;
-	background: #ffd54f;	
+	background: #EEEEEE;	
 	padding: 10px 40px;
 	border-radius: 15px;
 }
 
 .col a:hover{
-	background: #c8a415;
+	background: #212121;
+	color: white;
 }
 
 /*------------ TABLA ----------------*/
