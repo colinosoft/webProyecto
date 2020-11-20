@@ -9,7 +9,7 @@
 }
 
 body{
-
+	margin-top: 0px;
 	margin-left: auto;
   	margin-right: auto;
 	width: 90%;
@@ -23,6 +23,9 @@ body{
 
 
 /*------- Estilos del menu principal ---*/
+.header{
+	padding-top: 50px;
+}
 
 .nav ul li {
     background-color:#EEEEEE;
@@ -147,7 +150,7 @@ body{
 
 .col a{
 	margin-top: 20px;
-	color: 757575;
+	color: #757575;
 	text-decoration: none;
 	background: #EEEEEE;	
 	padding: 10px 40px;
@@ -209,17 +212,62 @@ th, td {
 	width: 50%;
 	text-align: center;
 	padding: 20px;
-	border-radius: 35px;
-	border: 2px solid #bdbdbd;
 	margin: 40px; 
 }
 
 .parrafo{
-	height: 150px;
+	height: 400px;
 	width: 50%;
 	text-align: center;
 	padding: 20px;
 	border-radius: 35px;
 	border: 2px solid #bdbdbd;
 	margin: 40px; 
+}
+
+/*------------ Pie de pagina -----------*/
+
+.footer{
+	
+	display: inline-flex;
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	background: #8d8d8d;
+}
+
+.formulario{
+	height: 350px;
+	width: 25%;
+	text-align: center;
+	padding: 10px;
+	border-radius: 15px;
+	border: 2px solid #bdbdbd;
+	margin: 40px 0px 20px 250px; 
+}
+.redes{
+	height: 200px;
+	width: 10%;
+	padding: 20px 0px 20px 70px;
+	margin: 100px 0px 20px 0px; 
+	position: relative;
+}
+.redes ul {
+    list-style:none;
+}
+.mapa{
+	height: 350px;
+	width: 55%;
+	text-align: center;
+	padding: 10px 0px 0px 0px;
+	margin: 10px 40px 40px 0px; 
+}
+
+input[type=submit] {
+	background: #212121;
+    color: white;   
+}
+input[type=submit]:hover {
+  background:#EEEEEE;
+   color: #757575;
 }
