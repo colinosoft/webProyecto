@@ -186,6 +186,12 @@ th, td {
   text-align: center;
 }
 
+.tablaBotones:hover{
+	background: #CFD8DC;
+	color: white;
+	cursor: pointer;
+}
+
 .tarifas tr:nth-child(even) {
   background-color: #eee;
 }
@@ -204,11 +210,10 @@ th, td {
 .videos{
 	
 	display: inline-flex;
-	width: 100%;
 }
 
 .video{
-	height: 400px;
+	height: 200px;
 	width: 50%;
 	text-align: center;
 	padding: 20px;
@@ -216,14 +221,25 @@ th, td {
 }
 
 .parrafo{
-	height: 400px;
+	height: 200px;
 	width: 50%;
 	text-align: center;
 	padding: 20px;
-	border-radius: 35px;
+	border-radius: 35px 35px 35px 0px;
 	border: 2px solid #bdbdbd;
 	margin: 40px; 
 }
+
+.parrafo1{
+	height: 200px;
+	width: 50%;
+	text-align: center;
+	padding: 20px;
+	border-radius: 35px 0px 35px 35px;
+	border: 2px solid #bdbdbd;
+	margin: 40px; 
+}
+
 
 /*------------ Pie de pagina -----------*/
 
