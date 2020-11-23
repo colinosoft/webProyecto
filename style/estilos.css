@@ -28,7 +28,8 @@ body{
 }
 
 .nav ul li {
-    background-color:#EEEEEE;
+    background-color:#e0e0e0;
+    #EEEEEE;
 
 }
 .nav {
@@ -45,11 +46,11 @@ body{
 .nav ul a {
     display:block;
     text-decoration:none;
-    font-weight:400;
     font-size:20px;
     padding:20px;
     color: #757575;
     text-transform: uppercase;
+   
 }
 
 .nav ul li {
@@ -88,7 +89,7 @@ body{
 
 .nav ul ul a {
     display: block;
-    padding: 17px;
+    padding: 20px;
 }
 
 .nav ul li:hover > ul {
