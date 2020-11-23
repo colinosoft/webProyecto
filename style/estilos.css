@@ -213,16 +213,16 @@ th, td {
 }
 
 .video{
-	height: 200px;
-	width: 50%;
+	height: 400px;
+	width: 60%;
 	text-align: center;
 	padding: 20px;
-	margin: 40px; 
+	margin: 0px 20px 40px 40px; 
 }
 
 .parrafo{
-	height: 200px;
-	width: 50%;
+	height: 300px;
+	width: 40%;
 	text-align: center;
 	padding: 20px;
 	border-radius: 35px 35px 35px 0px;
@@ -231,8 +231,8 @@ th, td {
 }
 
 .parrafo1{
-	height: 200px;
-	width: 50%;
+	height: 300px;
+	width: 40%;
 	text-align: center;
 	padding: 20px;
 	border-radius: 35px 0px 35px 35px;
@@ -250,17 +250,48 @@ th, td {
 	width: 100%;
 	left: 0px;
 	background: #8d8d8d;
+	padding-bottom: 50px;
 }
 
+/*--------  Formulario -----------*/
 .formulario{
-	height: 350px;
+	height: 400px;
 	width: 25%;
-	text-align: center;
-	padding: 10px;
+	padding: 20px;
 	border-radius: 15px;
 	border: 2px solid #bdbdbd;
 	margin: 40px 0px 20px 250px; 
 }
+.formulario h2{
+	text-align: center;
+}
+input[type=submit] {
+	background: #424242;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 10px 0px 10px 10px;
+    padding: 5px;
+
+}
+input[type=submit]:hover {
+  background:#EEEEEE;
+   color: #212121;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 5px 10px;
+  margin-top: 10px;
+  margin-bottom:  10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+/*----------- Redes sociales ---------*/
 .redes{
 	height: 200px;
 	width: 10%;
@@ -271,6 +302,8 @@ th, td {
 .redes ul {
     list-style:none;
 }
+
+/*----------- Mapa ---------*/
 .mapa{
 	height: 350px;
 	width: 55%;
@@ -279,11 +312,3 @@ th, td {
 	margin: 10px 40px 40px 0px; 
 }
 
-input[type=submit] {
-	background: #212121;
-    color: white;   
-}
-input[type=submit]:hover {
-  background:#EEEEEE;
-   color: #757575;
-}
