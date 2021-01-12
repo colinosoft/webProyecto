@@ -326,7 +326,21 @@ input[type=text], select {
 	padding-top: 50px;
 	height: 100px;
 	border-radius: 30px 0px 30px 0px;
+   -webkit-animation-name: cambiarColor;
+    animation-name: cambiarColor;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
+
+@keyframes cambiarColor {   
+     0%   { background-color: #e0e0e0;}   
+     100% { background-color: #212121;}  
+     0%   {color:  #757575;} 
+     100% {color:  #EEEEEE;}   
+ }
 
 
 .rowMadera{
@@ -361,5 +375,68 @@ input[type=text], select {
 }
 .colMadera a:hover{
 	
-	color: white;
+	color: black;
+}
+
+/*---------------- AQUI DISEÑO DE LA PAGINA SILESTONE--------------------/
+
+/*-------- Encabezado de silestone ------*/
+
+.cabeceraSilestone h1{
+	background: #e0e0e0;
+	text-align: center;
+	margin-top: -1px;
+	padding-top: 50px;
+	height: 100px;
+	border-radius: 30px 0px 30px 0px;
+   -webkit-animation-name: cambiarColor;
+    animation-name: cambiarColor;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes cambiarColor {   
+     0%   { background-color: #212121;}   
+     100% { background-color: #e0e0e0;}  
+     0%   {color:  #EEEEEE;} 
+     100% {color:  #757575;}   
+ }
+
+
+.rowSilestone{
+	text-align: center;
+	display: inline-block;
+}
+
+
+.colSilestone{
+	height: 250px;
+	width: 20%;
+	background: #757575;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin: 0px 10px 30px 10px;
+}
+
+.colSilestone a{
+	
+	color: #EEEEEE;
+	text-decoration: none;
+	background: #757575;	
+	
+	
+}
+.colSilestone img{
+
+	height: 150px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.colSilestone a:hover{
+	
+	color: black;
 }
