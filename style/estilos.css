@@ -29,7 +29,7 @@ body{
 
 .nav ul li {
     background-color:#e0e0e0;
-    #EEEEEE;
+   
 
 }
 .nav {
@@ -65,6 +65,7 @@ body{
 
 .nav ul li:hover {
     background: #212121;
+
 }
 
 .nav ul li a:hover {
@@ -84,6 +85,7 @@ body{
 
 .nav ul ul li {
     float:none;
+     background: #212121;
    
 }
 
@@ -313,3 +315,51 @@ input[type=text], select {
 	margin: 10px 40px 40px 0px; 
 }
 
+/*---------------- AQUI DISEÑO DE LA PAGINA MADERA --------------------/
+
+/*-------- Encabezado de madera ------*/
+
+.cabeceramadera h1{
+	background: #e0e0e0;
+	text-align: center;
+	margin-top: -1px;
+	padding-top: 50px;
+	height: 100px;
+	border-radius: 30px 0px 30px 0px;
+}
+
+
+.rowMadera{
+	text-align: center;
+	display: inline-block;
+}
+
+
+.colMadera{
+	height: 250px;
+	width: 20%;
+	background: #EEEEEE;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin: 0px 10px 30px 10px;
+}
+
+.colMadera a{
+	
+	color: #757575;
+	text-decoration: none;
+	background: #EEEEEE;	
+	
+	
+}
+.colMadera img{
+
+	height: 150px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.colMadera a:hover{
+	
+	color: white;
+}
