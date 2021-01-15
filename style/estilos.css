@@ -29,14 +29,15 @@ body{
 
 .nav ul li {
     background-color:#e0e0e0;
-   
+ }
 
-}
+
 .nav {
 	float: right;
 	margin-top: 10px;
 
 }
+
 .nav ul {
     list-style:none;
     margin:0;
@@ -127,7 +128,15 @@ body{
 .productos h1{
 	text-align: center;
 }
-
+.cabeceraGenerica h1{
+	background: #e0e0e0;
+	text-align: center;
+	margin-top: -1px;
+	padding-top: 50px;
+	height: 100px;
+	color: #757575;
+	border-radius: 30px 0px 30px 0px;
+}
 
 /*--------- Tres columnas  --------*/
 
@@ -224,7 +233,7 @@ th, td {
 }
 
 .parrafo{
-	height: 300px;
+	height:100%;
 	width: 40%;
 	text-align: center;
 	padding: 20px;
@@ -234,7 +243,7 @@ th, td {
 }
 
 .parrafo1{
-	height: 300px;
+	height: 100%;
 	width: 40%;
 	text-align: center;
 	padding: 20px;
@@ -315,6 +324,74 @@ input[type=text], select {
 	margin: 10px 40px 40px 0px; 
 }
 
+/*---------------- AQUI DISEÑO DE LA PAGINA PRODUCTOS--------------------/
+
+/*----------------Columnas de productos ---------------*/
+
+.rowProductos{
+	text-align: center;
+	display: inline-flex;
+}
+
+
+.colProductos{
+	height: 500px;
+	width: 50%;
+	background: black;
+	vertical-align: top;
+	text-align: center;
+	margin: 0px 10px 30px 10px;
+}
+
+.colProductos:hover{
+	background: #212121;
+}
+
+.colProductos1{
+	height: 500px;
+	width: 50%;
+	background: #EEEEEE;
+	vertical-align: top;
+	text-align: center;
+	margin: 0px 10px 30px 10px;
+}
+.colProductos1:hover{
+	background: #e0e0e0;
+}
+.colProductos a{
+	
+	color: #757575;
+	text-decoration: none;
+	font-size: 40px;
+	
+}
+.colProductos1 a{
+	
+	color: #757575;
+	text-decoration: none;	
+	font-size: 40px;
+	
+}
+.colProductos img{
+
+	height: 350px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.colProductos1 img{
+
+	height: 350px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.colProductos a:hover{
+	
+	color: white;
+}
+.colProductos1 a:hover{
+	
+	color: black;
+}
 /*---------------- AQUI DISEÑO DE LA PAGINA MADERA --------------------/
 
 /*-------- Encabezado de madera ------*/
@@ -427,9 +504,8 @@ input[type=text], select {
 	color: #EEEEEE;
 	text-decoration: none;
 	background: #757575;	
-	
-	
 }
+
 .colSilestone img{
 
 	height: 150px;
@@ -439,4 +515,159 @@ input[type=text], select {
 .colSilestone a:hover{
 	
 	color: black;
+}
+
+/*------------ SOBRE NOSOTROS  --------------*/
+
+.nosotrosFila{
+	
+	display: inline-flex;
+}
+
+.nosotrosFila{
+	height:50%;
+	width: 90%;
+	text-align: center;
+	padding: 20px;
+	margin: 0px 20px 40px 40px; 
+}
+
+.nosotrosImagen{
+	width: 60%;
+}
+
+.nosotrosImagen img{
+	height: 100%;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.img-top {
+
+    display: none;
+    position: relative;        
+}
+
+.nosotrosImagen:hover .img-top {
+
+    display: block;
+        
+}
+.nosotrosImagen:hover img{
+	display: none;
+}
+
+
+.parrafoNos{
+	height: 300px;
+	width: 50%;
+	text-align: center;
+	padding: 20px;
+	
+	margin: 40px; 
+}
+.parrafoNos h1{
+	text-align: end;
+}
+.parrafo1Nos{
+	height: 300px;
+	width: 50%;
+	text-align: center;
+	padding: 20px;
+	border-radius: 35px 0px 35px 35px;
+	border: 2px solid #bdbdbd;
+	margin: 40px; 
+}
+
+
+/*------------ CONTACTO  --------------*/
+
+.rowContacto{
+	text-align: center;
+	display: inline-flex;
+}
+
+
+.colContacto{
+	height: 500px;
+	width: 50%;
+	
+	vertical-align: top;
+	text-align: center;
+	margin: 0px 10px 30px 10px;
+}
+
+.colContacto a{
+	
+	color: #757575;
+	text-decoration: none;
+	font-size: 40px;
+	
+}
+
+.colContacto img{
+
+	height: 350px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.colContacto a:hover{
+	
+	color: white;
+}
+
+/*--------  Formulario Contacto -----------*/
+
+.formulario1{
+	height: 400px;
+	width: 70%;
+	padding: 20px;
+	border-radius: 15px;
+	border: 2px solid #bdbdbd;
+	margin: 10px 0px 20px 50px; 
+}
+.formulario1 h2{
+	text-align: center;
+}
+input[type=submit] {
+	background: #424242;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 10px 0px 10px 10px;
+    padding: 5px;
+
+}
+input[type=submit]:hover {
+  background:#EEEEEE;
+   color: #212121;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 5px 10px;
+  margin-top: 10px;
+  margin-bottom:  10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.mapa1{
+	height: 350px;
+	width: 100%;
+	margin-left: -150px; 
+}
+
+/*----------- Redes sociales ---------*/
+.redes1{
+	height: 200px;
+	width: 20%; 
+	position: relative;
+}
+.redes1 ul {
+    list-style:none;
 }
